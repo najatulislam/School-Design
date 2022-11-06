@@ -19,8 +19,8 @@ body{
 }
 
 .logo img{
-    width: 120px;
-    height: 29px;
+    width: 150px;
+    height: 50px;
 }
 
 .my_btn{
@@ -99,6 +99,7 @@ body{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    color: #413960;
 }
 
 .online_crs{
@@ -107,11 +108,93 @@ body{
     box-shadow: 10px 10px 20px lightgray;
 }
 
-.c1{
-    text-align: right;
+.online_crs h5{
+    font-weight: bold;
+    color: #413960;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.online_crs p{
+    color: #585859;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.courses_btn{
+    border: none;
+    border-radius: 33px;
+    background-color: #21B573;
+}
+
+.courses_btn a{
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .crd_icn img{
     width: 25px;
     height: 25px;
+}
+
+.testimonial{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.testimonial p{
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.testimonial img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.footer_txt{
+    font-size: 16px;
+    background-color: #282531;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.footer_txt p{
+   color: #fff;
+}
+
+.footer_txt h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer_txt ul li{
+    list-style: none;
+}
+
+.footer_txt ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+}
+
+.baseline_all ul{
+    padding: 0;
+}
+
+.footer{
+    color: #fff;
+    font-size: 12px;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #21B573;
+    font-weight: bolder;
+    
 }
